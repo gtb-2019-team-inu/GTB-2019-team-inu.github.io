@@ -1,0 +1,20 @@
+@mixin ContentStyle {
+  padding: $large-space 0;
+  h1 {
+    text-align: center;
+    font-size: $header-font-size;
+    margin-bottom: $large-space; 
+  }
+}
+
+@mixin colorContent {
+  @include ContentStyle();
+  background: $main-color;
+  color: #fff;
+}
+
+@mixin whiteContent {
+  @include ContentStyle();
+  background: #fff;
+  color: $main-color;
+}

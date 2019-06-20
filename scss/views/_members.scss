@@ -1,0 +1,38 @@
+$member-image-width: 400px;
+.members {
+  @include colorContent();
+}
+
+.member {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto $large-space;
+  width: $content-width;
+  &__image {
+    width: $member-image-width;
+    img {
+      width: 100%;
+    }
+  }
+  &__profile {
+    width: $content-width - $member-image-width - $large-space;
+  }
+  &__name {
+    font-size: 32px;
+    font-family: fantasy;
+  }
+  &--reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+.membersFooter {
+  text-align: center;
+  font-family: fantasy;
+  &__you {
+    margin-top: $mid-space;
+    font-size: 48px;
+  }
+}

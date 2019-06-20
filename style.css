@@ -1,0 +1,238 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+.firstView {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstView__animation {
+  margin-top: -80px;
+}
+
+.firstView__animation svg {
+  width: 700px;
+  height: 300px;
+}
+
+.firstView__animation path {
+  fill: none;
+  stroke: #000;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 0;
+  stroke-width: 1;
+  -webkit-animation: hello 3s ease-in forwards;
+  animation: hello 3s ease-in forwards;
+}
+
+@-webkit-keyframes hello {
+  0% {
+    stroke-dashoffset: 2000;
+    fill: transparent;
+  }
+  50% {
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: #000;
+  }
+}
+
+@keyframes hello {
+  0% {
+    stroke-dashoffset: 2000;
+    fill: transparent;
+  }
+  50% {
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: #000;
+  }
+}
+
+.members {
+  padding: 80px 0;
+  background: #000;
+  color: #fff;
+}
+
+.members h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+
+.member {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto 80px;
+  width: 1120px;
+}
+
+.member__image {
+  width: 400px;
+}
+
+.member__image img {
+  width: 100%;
+}
+
+.member__profile {
+  width: 640px;
+}
+
+.member__name {
+  font-size: 32px;
+  font-family: fantasy;
+}
+
+.member--reverse {
+  flex-direction: row-reverse;
+}
+
+.membersFooter {
+  text-align: center;
+  font-family: fantasy;
+}
+
+.membersFooter__you {
+  margin-top: 40px;
+  font-size: 48px;
+}
+
+.introduction {
+  padding: 80px 0;
+  background: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.introduction h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+
+.mission {
+  padding: 80px 0;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.mission h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+
+.skillSet {
+  padding: 80px 0;
+  background: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.skillSet h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+
+.skill {
+  margin-top: 40px;
+}
+
+.skill__title {
+  background: #fff;
+  border: solid 1px #000;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 auto;
+  position: relative;
+  width: 300px;
+  z-index: 100;
+}
+
+.skill__description {
+  border: solid 1px #000;
+  padding: 32px;
+  margin: -16px auto 0;
+  width: 600px;
+}
+
+.attention {
+  padding: 80px 0;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.attention h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 80px;
+}

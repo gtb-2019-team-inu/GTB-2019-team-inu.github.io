@@ -1,0 +1,50 @@
+.firstView {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__animation {
+    margin-top: -80px;
+    svg {
+      width: 700px;
+      height: 300px;
+    }
+    path {
+      fill: none;
+      stroke: $main-color; 
+      stroke-dasharray: 2000;
+      stroke-dashoffset: 0;
+      stroke-width: 1;
+      -webkit-animation: hello 3s ease-in forwards;
+      animation: hello 3s ease-in forwards;
+    }
+    @-webkit-keyframes hello {
+      0% {
+        stroke-dashoffset: 2000;
+        fill:transparent;
+      }
+      50% {
+        fill:transparent;
+      }
+      100% {
+        stroke-dashoffset: 0;
+        fill: $main-color;
+      }
+    }
+    @keyframes hello {
+      0% {
+        stroke-dashoffset: 2000;
+        fill:transparent;
+      }
+      50% {
+        fill:transparent;
+      }
+      100% {
+        stroke-dashoffset: 0;
+        fill: $main-color;
+      }
+    }    
+  }
+}

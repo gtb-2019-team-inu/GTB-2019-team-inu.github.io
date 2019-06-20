@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>稲守さんの愉快な奴隷たち</title>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="firstView">
-      <div class="firstView__animation"><svg
+<svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -112,68 +101,3 @@
     </g>
   </g>
 </svg>
-
-      </div>
-    </div>
-    <div class="members">
-      <h1>Members</h1>
-      <div class="member">
-        <div class="member__image"><img src="/images/yuta-k.jpg"></div>
-        <div class="member__profile">
-          <div class="member__name">Yuta.K</div>
-          <div class="member__information">
-            奴隷1号。<br>
-            'Git'の講義を担当。大した技術力もないのにGTBの講師をやっているポンコツ。
-             
-          </div>
-        </div>
-      </div>
-      <div class="member member--reverse">
-        <div class="member__image"><img src="/images/shota-t.jpg"></div>
-        <div class="member__profile">
-          <div class="member__name">Shota.T</div>
-          <div class="member__information">
-            奴隷2号。<br>
-            'プログラミング基礎'の講義を担当。
-          </div>
-        </div>
-      </div>
-      <div class="membersFooter">and...
-        <div class="membersFooter__you">YOU</div>
-      </div>
-    </div>
-    <div class="introduction">
-      <h1>About</h1>冥界の王 -INAMORI- に操られし哀れなGTB運営事務局メンバー<br>
-      自由を夢見つつ、共にGTBをより良くする仲間を求め彷徨っている
-    </div>
-    <div class="mission">
-      <h1>Mission</h1>我々の活動は、仲間たちの知識を豊かに強固にし、<br>
-      新たなGMOの文化・人財とサービスの「未来」「発展」に心踊らせ、会社とビジネスに貢献する
-    </div>
-    <div class="skillSet">
-      <h1>Skills</h1>
-      <div class="skill">
-        <div class="skill__title">はい、よろこんで！！！</div>
-        <div class="skill__description">
-          言われたことはやるしかない。<br>
-          INAMORI様は神様です！！！
-        </div>
-      </div>
-      <div class="skill">
-        <div class="skill__title">すいませんでした！！！</div>
-        <div class="skill__description">とりあえず謝罪、僕らは存在が罪、、、</div>
-      </div>
-      <div class="skill">
-        <div class="skill__title">いやぁ、それはちょっと、、、</div>
-        <div class="skill__description">
-          無茶ぶりは拒絶してみる。<br>
-          受け入れられるかは、、、
-        </div>
-      </div>
-    </div>
-    <div class="attention">
-       このサイトはネタサイトです。<br>
-      実在の組織、団体とはなんの関係もございませんのでご了承ください。
-    </div>
-  </body>
-</html>
